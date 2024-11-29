@@ -83,7 +83,8 @@ The dataset's structure was analyzed using:
 
   - df.info() to confirm no missing values.
   - df.shape to ensure the expected number of rows and columns.
-
+Sample output
+```python
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 100 entries, 0 to 99
 Data columns (total 4 columns):
@@ -94,7 +95,7 @@ Data columns (total 4 columns):
  1   Company    100 non-null    object        
  2   Location   100 non-null    object        
  3   Date       100 non-null    datetime64[ns]
-
+```
  ## Final Dataset
 
 | Job Title                 | Company                        | Location         | Date       |
