@@ -37,7 +37,7 @@ Empty lists were initialized to store job details (jobtitles, companies, locatio
 - Location
 - Date
 
- 
+ ```python
   # Loop to extract data
   
 for job in jobs:
@@ -51,7 +51,7 @@ for job in jobs:
     companies.append(company)
     locations.append(location)
     dates.append(date)
-
+```
 **3. Creating a DataFrame**
 
 The extracted data was compiled into a pandas DataFrame:
