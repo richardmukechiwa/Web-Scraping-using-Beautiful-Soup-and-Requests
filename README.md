@@ -37,8 +37,9 @@ Empty lists were initialized to store job details (jobtitles, companies, locatio
 - Location
 - Date
 
-  ```python
+ 
   # Loop to extract data
+  
 for job in jobs:
     jobtitle = job.find('h2', class_='title is-5').get_text()
     company = job.find('h3', class_='subtitle is-6 company').get_text()
@@ -50,7 +51,7 @@ for job in jobs:
     companies.append(company)
     locations.append(location)
     dates.append(date)
-```
+
 **3. Creating a DataFrame**
 
 The extracted data was compiled into a pandas DataFrame:
@@ -96,12 +97,14 @@ Data columns (total 4 columns):
 
  ## Final Dataset
 
-Job Title	                 Company	               Location	          Date
-Senior Python Developer	Payne, Roberts and Davis	  Stewartbury	       2021-04-08
-Energy engineer	      Vasquez-Davidson	           Christopherville	 2021-04-08
-Legal executive	      Jackson, Chambers and Levy    Port Ericaburgh	 2021-04-08
-Fitness centre manager	Savage-Bradley	               East Seanview	    2021-04-08
-Product manager	      Ramirez Inc	                  North Jamieview	 2021-04-08
+| Job Title                 | Company                        | Location         | Date       |
+|---------------------------|--------------------------------|------------------|------------|
+| Senior Python Developer   | Payne, Roberts and Davis      | Stewartbury      | 2021-04-08 |
+| Energy engineer           | Vasquez-Davidson              | Christopherville | 2021-04-08 |
+| Legal executive           | Jackson, Chambers and Levy    | Port Ericaburgh  | 2021-04-08 |
+| Fitness centre manager    | Savage-Bradley                | East Seanview    | 2021-04-08 |
+| Product manager           | Ramirez Inc                   | North Jamieview  | 2021-04-08 |
+
 
 ## Outcome
 The dataset is clean and ready for analysis. This project highlights the following skills:
