@@ -89,22 +89,22 @@ Sample output
 RangeIndex: 100 entries, 0 to 99
 Data columns (total 4 columns):
 
- #   Column     Non-Null Count  Dtype         
----  ------     --------------  -----         
- 0   Job Title  100 non-null    object        
- 1   Company    100 non-null    object        
- 2   Location   100 non-null    object        
- 3   Date       100 non-null    datetime64[ns]
+|#   | Column     | Non-Null Count  |  Dtype       |          
+|--- | ------     |--------------   | -------------|      
+| 0  | Job Title  | 100 non-null    | object       | 
+| 1  | Company    | 100 non-null    |object        | 
+| 2  | Location   | 100 non-null    |object        |
+|3   | Date       |100 non-null     |datetime64[ns]|
 ```
  ## Final Dataset
 
 | Job Title                 | Company                        | Location         | Date       |
 |---------------------------|--------------------------------|------------------|------------|
-| Senior Python Developer   | Payne, Roberts and Davis      | Stewartbury      | 2021-04-08 |
-| Energy engineer           | Vasquez-Davidson              | Christopherville | 2021-04-08 |
-| Legal executive           | Jackson, Chambers and Levy    | Port Ericaburgh  | 2021-04-08 |
-| Fitness centre manager    | Savage-Bradley                | East Seanview    | 2021-04-08 |
-| Product manager           | Ramirez Inc                   | North Jamieview  | 2021-04-08 |
+| Senior Python Developer   | Payne, Roberts and Davis       | Stewartbury      | 2021-04-08 |
+| Energy engineer           | Vasquez-Davidson               | Christopherville | 2021-04-08 |
+| Legal executive           | Jackson, Chambers and Levy     | Port Ericaburgh  | 2021-04-08 |
+| Fitness centre manager    | Savage-Bradley                 | East Seanview    | 2021-04-08 |
+| Product manager           | Ramirez Inc                    | North Jamieview  | 2021-04-08 |
 
 
 ## Outcome
